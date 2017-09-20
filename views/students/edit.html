@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>You're a Wizared Haaaaarrrrryyyyyy!!!</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src='/scripts/jquery.js'></script>
+  <script src='/scripts/script.js'></script>
+</head>
+<body>
+  <div class="nav">
+    <h1><a href="/students">Back</a></h1>
+    <h1><a href="/">Home</a></h1>
+  </div>
+  <div class="student">
+    <form class="edit-student-form">
+        <label>First Name:</label>
+        <input class="student-fname-input" type="text" value={{ fname }} />
+        <br />
+
+        <label>Last Name:</label>
+        <input class="student-lname-input" type="text" value={{ lname }} />
+        <br />
+
+        <label>Image:</label>
+        <input class="student-image-input" type="text" value={{ image }} />
+        <br />
+
+        <label>House:</label>
+        <select class="student-house-input" name="house" id="">
+          <option value="1">Gryffindor</option>
+          <option value="2">Hufflepuff</option>
+          <option value="3">Ravenclaw</option>
+          <option value="4">Slytherin</option>
+        </select>
+        <br />
+
+        <input type="hidden" class="student-id-input" value={{ student_id }} />
+
+        <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

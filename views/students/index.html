@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>You're a Wizared Haaaaarrrrryyyyyy!!!</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src='/scripts/jquery.js'></script>
+  <script src='/scripts/script.js'></script>
+</head>
+<body>
+  <div class="nav">
+    <h1><a href="/students">Students</a></h1>
+    <h1><a href="/houses">Houses</a></h1>
+    <h1><a href="/">Home</a></h1>
+  </div>
+  <div class="student">
+    {{ #students }}
+    <h2><a href="/students/{{ student_id }}">{{ fname }} {{ lname }}</a>, <a href="/houses/{{ house_id }}">{{ name }}</a></h2>
+    {{ /students }}
+  </div>
+</body>
+</html>

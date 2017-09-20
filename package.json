@@ -1,0 +1,24 @@
+{
+  "name": "hw-w05-d04-do_you_pg_promise",
+  "version": "1.0.0",
+  "description": "![:image](https://media.giphy.com/media/tpwwhv1BLd31e/giphy.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:wdi-nyc-1-30/hw-w05-d04-express_mvc_reps.git"
+  },
+  "author": "Ryan Reynolds",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "method-override": "^2.3.7",
+    "morgan": "^1.8.1",
+    "mustache-express": "^1.2.4",
+    "path": "^0.12.7",
+    "pg-promise": "^5.6.2"
+  }
+}

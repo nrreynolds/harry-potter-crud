@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>You're a Wizared Haaaaarrrrryyyyyy!!!</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src='/scripts/jquery.js'></script>
+  <script src='/scripts/script.js'></script>
+</head>
+<body>
+  <div class="nav">
+    <h1><a href="/students">Back</a></h1>
+    <h1><a href="/">Home</a></h1>
+  </div>
+    <div class='student'>
+      <h1>{{ fname }} {{ lname }}</h1>
+      <img class='img' src={{image}} alt="image"/>
+      <h2><a href="/houses/{{ house_id }}">{{ name }}</a></h2>
+      <h2><a href="/students/{{ student_id }}/edit">Riddikulus(edit)</a></h2>
+      <button class="delete-student" data-id={{ student_id }}>Avada Kedavra!!</button>
+    </div>
+</body>
+</html>

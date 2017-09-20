@@ -1,0 +1,218 @@
+@import url("http://fnt.webink.com/wfs/webink.css/?project=548D2AB5-FEF2-4BB9-BA39-A9506DCC5723&fonts=81DCB682-CEF0-F2EE-50B4-29BCB883721E:f=Ablefont");
+@import url(http://fonts.googleapis.com/css?family=Irish+Grover);
+
+
+body {
+  font-family: Ablefont, Irish Grover;
+  text-align: center;
+  color: #fff;
+  background-image: url('http://wallpaper-gallery.net/images/harry-potter-wallpaper/harry-potter-wallpaper-13.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-container {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.main-container *{
+  margin-bottom: 20px;
+}
+
+.house-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+img {
+  border-radius: 40%;
+  height: 300px;
+    margin: auto;
+    /*min-height: 100%;*/
+    max-width: 325px;
+
+}
+
+.nav {
+  background-color: #D8AE48;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.student {
+  display: inline-block;
+  background-color: #D8AE48;
+  width: 350px;
+  overflow: hidden;
+  /*height: 550px;*/
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid black;
+  border-radius: 10%;
+}
+
+
+.house {
+  height: 50%;
+}
+
+.house img {
+  display: block;
+}
+
+
+.roster{
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 7vh;
+  padding: 0 15px;
+  color: #fff;
+  text-align: center;
+  font-family: Ablefont, Irish Grover;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 5vh;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #D8AE48;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus,
+a:hover,
+a:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 7vh;
+  font-size: 15px;
+  font-family: Ablefont, Irish Grover;
+  padding: 3px 5px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: none;
+  /*box-sizing: border-box; */
+}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
